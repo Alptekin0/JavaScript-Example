@@ -1,0 +1,5 @@
+function palindromMu(kelime) {
+  let ters = kelime.split("").reverse().join("");
+  return kelime === ters;
+}
+console.log(palindromMu("kek")); // true
