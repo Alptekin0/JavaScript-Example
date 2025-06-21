@@ -1,0 +1,11 @@
+function girisYap() {
+  const kullaniciAdi = prompt("Kullanıcı adınızı girin:");
+  const sifre = prompt("Şifrenizi girin:");
+
+  if (kullaniciAdi === "admin" && sifre === "1234") {
+    console.log("Giriş başarılı. Hoş geldin admin!");
+    menu();
+  } else {
+    console.log("Hatalı kullanıcı adı veya şifre. Lütfen tekrar deneyin.");
+  }
+}
